@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 150%;
+    width: 100%;
+    /* background-color:rgba(255, 255, 255, 0.938); */
+}
+.container{
+    background-image: url(eveling-salazar-B8ef92J_UyE-unsplash.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 70%;
+    background-attachment: fixed;
+    
+    /* background-color: rgba(205, 65, 65); */
+
+}
+.conatiner2{
+    background-color: #ece1de;
+    position: relative;
+    border-top: 1px solid rgb(15, 119, 114);
+}
+.content{
+    position: sticky;
+    top: 60%;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+.content>h2
+{
+font-family: 'Times New Roman', Times, serif;
+ font-size: 30px;
+color: rgb(15, 119, 114);
+
+margin-top: 10%;
+margin-left: 5%;
+    letter-spacing: 5px;
+}
+.content>p{
+    font: 400 20px "Times New Roman", Times, serif;
+    margin-top: 16px;
+    width: 50%;
+}
+.container>h1{
+    /* margin-top: 10%; */
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    /* margin-left: 30%; */
+    color: rgb(15, 119, 114);
+    position: fixed;
+    top: 5%;
+    left: 5%;
+    letter-spacing: 5px;
+    
+}

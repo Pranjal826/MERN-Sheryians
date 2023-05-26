@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+html,body
+{
+    height: 100%;
+    width: 100%;
+   
+}
+
+/* .box{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+.box1{
+    left: 10%;
+    top: 100px;
+    background-color: green;
+    z-index: 7;
+}
+.box2{
+    z-index: 6;
+    background-color: royalblue;
+} */
+
+.container{
+    width: 50%;
+    height: 50%;
+    background-color: pink;
+    position: relative;
+  
+}
+ h1{
+    /* position: absolute; */
+   top: 10%;
+} 
