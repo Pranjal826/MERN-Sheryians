@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+ height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+background-color: #454545;
+    position: sticky;
+    top: 0;
+
+}
+i{
+    margin-right: 10px;
+font-size: 20px;
+color: rgb(213, 203, 203);
+   
+}
+.para{
+    display: flex;
+    height: 8%;
+    /* text-align: center; */
+    justify-content: center;
+    align-items: center;
+}
+p{
+    
+    background-color: #fff;
+    color: rgb(15, 15, 15);
+}
+.rnav{
+    display: flex;
+    list-style-type: none;
+    width: 100%;
+}
+.logo {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+li a {
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(213, 203, 203);
+}
+
+li a:hover {
+    transition: 0.5s ease-in-out all;
+    color: rgb(199, 143, 143);
+}
+
+.img{
+    background-image: url(https://www.apple.com/v/home/ba/images/heroes/iphone-14-pro/hero_iphone14pro_spring__9xo85pm6sbmm_large_2x.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  
+}
+.some-text{
+
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 10%;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+.some-text>p{
+    padding: 10px;
+    background:none;
+    color: white;
+    font-size: 25px;
+}
+.some-text>a{
+    padding: 10px;
+    color: rgb(141, 154, 233);
+    font-size: 25px;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
