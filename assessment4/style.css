@@ -13,6 +13,7 @@ html,body{
     width: 100%;
     display: flex;
     flex-direction: column;
+
 }
 
 .nav {
@@ -99,7 +100,7 @@ li a:hover {
 
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    height: 10%;
+    
     width: 100%;
     padding: 20px;
     text-align: center;
@@ -118,4 +119,98 @@ li a:hover {
 }
 a{
     text-decoration: none;
+}
+.img2{
+    background-image: url(https://www.apple.com/v/home/ba/images/heroes/iphone-14/hero_iphone14_yellow__eun20sn4imi6_large_2x.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+   
+}
+.text{
+    color: rgb(3, 3, 3);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 10%;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+.text>p{
+    padding: 10px;
+    background:none;
+    color: rgb(3, 3, 3);
+    font-size: 25px;
+}
+.img3,.img4,.img5{
+    display: flex;
+    width:100%;
+    height: 100%;
+  
+   
+}
+.img4{
+    margin-top: -20%;
+}
+.image1,.image2{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50%;
+    height: 50%;
+    text-align: center;
+}
+
+.image1{
+    background-image: url(https://www.apple.com/v/home/ba/images/promos/ipad-pro/promo_ipadpro__ch217v9v7no2_medium.jpg);
+}
+.image2{
+    background-image: url(https://www.apple.com/v/home/ba/images/promos/macbook-pro-14-and-16/promo_mbp__ek7p477bkp6q_medium.jpg);
+    margin-left: 10px;
+}
+.image3{
+    background-image: url(https://www.apple.com/v/home/ba/images/promos/apple-watch-pride/promo_pride23__cnpic94fthle_medium.jpg);
+}
+.image4{
+    background-image: url(https://www.apple.com/in/home/promos/apple-watch-series-8/images/promo_apple_watch_series_8_spring__d9hfvufh7hyu_medium.jpg);
+}
+.image3,.image4{
+    
+    height: 70%;
+    width: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+.image3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #1e1d1d;
+}
+.image4{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: wheat;
+}
+.image5,.image6{
+width: 50%;
+height:70%;
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center;
+text-align: center;
+
+}
+.image5{
+    background-image: url(https://www.apple.com/v/home/ba/images/promos/homepod/promo_homepod_announce__bhviq9vjnlf6_medium.jpg);
+
+}
+.image6{
+    background-image: url(https://www.apple.com/v/imac-24/h/images/overview/color_front_green__eb8qbnemmre6_large.jpg);
+}
+
+
+.image5{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #ffffff;
 }
