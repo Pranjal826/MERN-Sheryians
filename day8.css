@@ -6,7 +6,7 @@
 html,body{
     height: 150%;
     width: 100%;
-    /* background-color:rgba(255, 255, 255, 0.938); */
+     background:linear-gradient(red,blue)
 }
 .container{
     background-image: url(eveling-salazar-B8ef92J_UyE-unsplash.jpg);
@@ -20,10 +20,10 @@ html,body{
     /* background-color: rgba(205, 65, 65); */
 
 }
-.conatiner2{
+.container2{
     background-color: #ece1de;
     position: relative;
-    border-top: 1px solid rgb(15, 119, 114);
+    border-top: 10px solid rgb(15, 119, 114);
 }
 .content{
     position: sticky;
@@ -56,5 +56,12 @@ margin-left: 5%;
     top: 5%;
     left: 5%;
     letter-spacing: 5px;
+    
+}
+nav{
+    position: fixed;
+    top: 10%;
+    background-color: aqua;
+    width: 100%;
     
 }
