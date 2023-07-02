@@ -154,10 +154,63 @@ padding: 50px;
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
-   width: 50%;
+   width: 50vmax;
    height: auto;
 }
 .div3-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
     width: 50%;
+    height: auto;
+    gap: 10px;
+}
+.div3-right>h3{
+    color: grey;
+}
+.div3-right>p{
+    color: grey;
+    line-height: 25px;
+}
+.div4{
+    width: 100vmax;
+    height: 100%;
+    display: flex;
+    padding: 30px;
+
+}
+.div4-left{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 50%;
+
+}
+.div4-top>p{
+    color: grey;
+    line-height: 25px;
+}
+.div4-bottom{
+    display: flex;
+    flex-direction: column;
+}
+.div4-bot{
+    display: flex;
+    flex-direction: column;
+    
+}
+.div4-bot>li{
+    list-style-type: disc;
+    color: grey;
+    line-height: 25px;
+ 
+}
+.div4-right{
+    background-image: url(https://png.pngtree.com/png-vector/20190613/ourmid/pngtree-web-development-illustration-modern-can-be-used-for-landing-pages-web-png-image_1496223.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50vmax;
     height: auto;
 }
