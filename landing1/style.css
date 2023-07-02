@@ -13,12 +13,22 @@ html,body{
     width: 100%;
     flex-direction: column;
 }
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo>img{
+    width: 50px;
+    height: 60px;
+    margin-left: 20px;
+}
 .nav{
     position: fixed;
     display: flex;
     width: 100%;
     justify-content: space-around;
     padding: 20px;
+    background-color: whitesmoke;
 }
 ul{
     display: flex;
@@ -44,6 +54,10 @@ ul>button{
     padding-left: 25px;
     padding-right: 25px;
 }
+i{
+    display: none;
+    font-size: 0;
+}
 .div1{
     margin-top: 10%;
     display: flex;
@@ -62,13 +76,12 @@ ul>button{
 }
 .div1-left>h1{
     width: 50vmax;
-    font-size: 10vh;
+    font-size: 5vw;
 
 }
 .inputs{
     padding: 40px;
     display: flex;
-    width: 20vmax;
     flex-direction: column;
     gap: 40px;
 }
@@ -106,7 +119,7 @@ input{
 .div2-top{
 display:flex;
 flex-direction: column;
-width: 100vmax;
+text-align: center;
 justify-content: center;
 align-items: center;
 margin-top: 30px;
@@ -114,7 +127,7 @@ padding: 50px;
 }
 
 .div2-top>p{
-    width: 75vmax;
+    width: 65vw;
     text-align: center;
     margin-top: 30px;
     color: grey;
@@ -144,7 +157,7 @@ padding: 50px;
     padding: 50px;
 }
 .div3{
-    width: 100vmax;
+    width: 100vw;
     height: 100%;
     display: flex;
     
@@ -155,7 +168,7 @@ padding: 50px;
    background-position: center;
    background-repeat: no-repeat;
    width: 50vmax;
-   height: auto;
+   height: 50vmax;
 }
 .div3-right{
     display: flex;
@@ -174,6 +187,7 @@ padding: 50px;
     line-height: 25px;
 }
 .div4{
+    margin-top: 100px;
     width: 100vmax;
     height: 100%;
     display: flex;
@@ -212,5 +226,333 @@ padding: 50px;
     background-repeat: no-repeat;
     background-size: cover;
     width: 50vmax;
-    height: auto;
+    height: 50vmax;
+}
+.div5{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+
+}
+.div5-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+}
+.div5-top>h3{
+    color: grey;
+    font-weight: 500;
+}
+.div5-top>h1{
+    font-size: 9vh;
+    text-align: center;
+    font-weight: 500;
+}
+.div5-left,.div5-right{
+    display: flex;
+    flex-direction: column;
+    width: 50vmax;
+    gap: 30px;
+}
+.div5-cont{
+    width: 70%;
+  
+}
+.div5-cont>p{
+    color: gray;
+    line-height: 25px;
+}
+.div5-bottom{
+    display: flex;
+    width: 100vw;
+    padding: 40px;
+}
+.div5-inner{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 14px;
+}
+.div5-inner>img{
+    width: 50px;
+    height: 40px;
+}
+.div6{
+    width: 100vw;
+    display: flex;
+
+}
+.div6-left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 100px;
+}
+.div6-left>h4{
+    color: grey;
+    font-weight: 500;
+}
+p{
+    color:grey;
+}
+.div6-left>h1{
+    font-size: 9vh;
+    font-weight: 400;
+}
+.div6-left>button{
+    border: none;
+    background-color: rgb(65, 180, 225);
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 150px;
+}
+.div6-right{
+    background-image: url(https://png.pngtree.com/png-vector/20200312/ourmid/pngtree-modern-flat-design-concept-of-web-development-with-characters-on-screen-png-image_2157892.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50vmax;
+    height: 50vmax;
+}
+.div7{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.div7-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.div7-top>h1{
+    font-size: 9vh;
+    font-weight: 500;
+    word-spacing: 6px;
+    width: 60%;
+    text-align: center;
+}
+.div7-bottom{
+    display: flex;
+}
+.div7-left{
+    width: 100vw;
+}
+.div7-right{
+    width: 100vw;
+}
+.div7-inner{
+    padding: 20px 70px;
+    line-height: 25px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.div7-bot{
+    display: flex;
+    flex-direction: column;   
+}
+.div7-bot>li{
+    list-style-type: disc;
+    color: grey;
+    line-height: 25px;
+}
+.div8{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    font-size:20px;
+    width: 100%;
+}
+.div8>a{
+    text-decoration: underline;
+}
+.div9{
+    display: flex;  
+    height: 50vh;
+    font-size:20px;
+    width: 100%;
+}
+.div9-left{
+    display: flex;
+    margin-left: 4vw;
+    padding-left: 30px;
+    width: 55%;
+    font-size: 19px;
+}
+.div9-right{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    padding: 40px;
+    align-items: center;
+}
+.div9-right>button{
+    border: none;
+    background-color: rgb(65, 180, 225);
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 150px;
+}
+.div9-right>a{
+    text-decoration: underline;
+}
+.div10{
+    display: flex;
+    font-size:20px;
+    width: 100%;
+ 
+}
+.div10-left{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    width: 35%;
+    gap: 30px;
+    line-height: 30px;
+}
+.div10-left>img{
+    width: 100px;
+    height: 100px;
+}
+.div10-right{
+    display: flex;
+    width: 65%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.div10-links{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.div10-links>a{
+    color: grey;
+    font-size: 2.5vh;
+}
+.div11{
+    display: flex;
+    width: 100vmax;
+    justify-content: space-around;
+    padding: 15px;
+}
+.last>a{
+    color: grey;
+}
+
+
+
+/* Responsive ------------------------- */
+
+@media (max-width:600px){
+    .menu{
+        display: none;
+    }
+   .div1{
+    flex-direction: column-reverse;
+   }
+   .div1-left{
+    width: 100%;
+   }
+   .div1-left>h1{
+    font-size: 10vw;
+
+   }
+   .nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+   }
+ i{
+    display: initial;
+
+    font-size: 20px;
+ }
+   .div2-bottom{
+    flex-direction: column;
+   }
+   .div3{
+    flex-direction: column;
+    align-items: center;
+   }
+   .div3-right{
+    width: 100%;
+   }
+   .div4{
+    margin: 0;
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 100vw;
+   }
+   .div4-left{
+    width: 90vw;
+   }
+  .div5-top>h1{
+    font-size: 5vh;
+    padding: 50px;
+
+  }
+  .div5-bottom{
+    flex-direction: column;
+    align-items: center;
+  }
+  .div6{
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .div6-left{
+    width: 100%;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .div7-top{
+    width: 100vw;
+  }
+  .div7-top>h1{
+    font-size: 5vh;
+    padding: 50px;
+    width: 100%;
+  }
+  .div7-bottom{
+    flex-direction: column;
+    width: 100vw;
+  }
+  .div9{
+    flex-direction: column;
+  }
+  .div9-left,.div9-right{
+    width:auto;
+    margin: 0;
+    padding: 15px;
+  }
+  .div10{
+    flex-direction: column;
+  }
+  .div10-left,.div10-right{
+    width: 100vw;
+    flex-direction: column;
+  }
+  .div11{
+    flex-direction: column;
+    width: 100vw;
+  }
+  .div8{
+    flex-direction: column;
+  }
 }
