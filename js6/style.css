@@ -1,0 +1,42 @@
+.parent-card {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: #eaeaea;
+  }
+  
+  .child-card {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+    transition: opacity 0.5s, transform 0.5s;
+  }
+  
+  .parent-card:hover .child-card:nth-child(1) {
+    opacity: 1;
+    transform: translate(-50%, -150%);
+  }
+  
+  .parent-card:hover .child-card:nth-child(2) {
+    opacity: 1;
+    transform: translate(50%, -50%);
+  }
+  
+  .parent-card:hover .child-card:nth-child(3) {
+    opacity: 1;
+    transform: translate(50%, 50%);
+  }
+  
+  .parent-card:hover .child-card:nth-child(4) {
+    opacity: 1;
+    transform: translate(-50%, 150%);
+  }
+  
+  .parent-card:hover .child-card:nth-child(5) {
+    opacity: 1;
+    transform: translate(-150%, -50%);
+  }
+  
