@@ -1,0 +1,47 @@
+body{
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: rgb(59, 58, 103);
+
+}
+.icon2{
+    font-size: 120px;
+    position: absolute;
+    top: 50%;
+    color: rgb(21, 15, 15);
+}
+.icon1{
+    color: red;
+    font-size: 120px;
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+}
+.heart-animation{
+    position: absolute;
+    top: 50%;
+    font-size: 120px;
+    color: red;
+    opacity: 0.2;
+    animation: heart 0.7s linear;
+    animation-iteration-count: 1;
+
+}
+@keyframes heart{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.5);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
